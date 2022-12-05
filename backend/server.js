@@ -42,6 +42,7 @@ app.use(cors());
 app.use('/api/products', productRoute)
 
 // Define the PORT
+
 const PORT = process.env.PORT || 5050
 
 app.listen(PORT, ()=>{
