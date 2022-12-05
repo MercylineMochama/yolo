@@ -3,5 +3,5 @@ FROM node:14.0.0-alpine
 WORKDIR /client
 RUN npm install
 COPY . .
-EXPOSE 3001
+EXPOSE 3000
 CMD ["npm","start"]
