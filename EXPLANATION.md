@@ -20,8 +20,8 @@ client:1.0
 # Image Deployment
 
 Deployment to Dockerhub - 2 images in total 
-backend:1.0
-client:1.0
+2ndhuman/backend:2.0
+2ndhuman/client:2.0
 
 
 # Service Orchestration
@@ -30,4 +30,5 @@ well structured docker compose created
 all services running 
 all services connected 
 all containers communicating 
+
 
