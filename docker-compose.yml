@@ -4,7 +4,7 @@ services:
   app:
     build:
       context: client
-    image: 2ndhuman/client
+    image: client:1.0
     container_name: client-app
     ports:
       - '3000:3000'
@@ -16,7 +16,7 @@ services:
       - mongo
 
   backend:
-    image: 2ndhuman/backend
+    image: backend:1.0
     container_name: backend-app
     ports:
       - '5050:5050'
