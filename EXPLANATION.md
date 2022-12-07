@@ -20,8 +20,8 @@ client:1.0
 # Image Deployment
 
 Deployment to Dockerhub - 2 images in total 
-2ndhuman/backend:2.0
-2ndhuman/client:2.0
+backend:2.0
+client:2.0
 
 
 # Service Orchestration
