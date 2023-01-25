@@ -57,7 +57,7 @@ For this to work, some steps have to be followed
  Install gcloud and kubectl
  Open a terminal in the root folder of the project
  Navigate into the folder that contains the kubernetes manifests: gke-manifests. 
- Use kubectl apply -f <manifest-name.yaml> to deploy the manifests, from the application folder to services folder.
+ Use kubectl apply -f <manifest.yml> to deploy the manifests, from the application folder to services folder.
 
  In order to implement I created 1 cluster (yolocluster) and one node
  2 loadbalancers 
