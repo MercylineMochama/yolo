@@ -5,16 +5,16 @@ metadata:
   name: "yolo-app"
   namespace: "default"
   labels:
-    app: "yolo-app"
+    application: "yolo-app"
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: "yolo-app"
+      application: "yolo-app"
   template:
     metadata:
       labels:
-        app: "yolo-app"
+        application: "yolo-app"
     spec:
       containers:
       - name: "yolo-1"
@@ -25,10 +25,10 @@ spec:
 apiVersion: "autoscaling/v2"
 kind: "HorizontalPodAutoscaler"
 metadata:
-  name: "yolo-app-hpa-big6"
+  name: "yolo-app-hpa-fdvx"
   namespace: "default"
   labels:
-    app: "yolo-app"
+    application: "yolo-app"
 spec:
   scaleTargetRef:
     kind: "Deployment"
