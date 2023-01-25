@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: yolo-client
+  labels:
+    app: yolo
+    layer: frontend
+spec:
+  containers:
+  - image: client:1.0
+    name: yolo-client
+    command: ["npm", "start"]
+    tty: true
+    stdin: true
+    ports:
+    - containerPort: 3000
+      protocol: TCP
